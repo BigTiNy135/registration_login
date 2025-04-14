@@ -7,7 +7,7 @@ import java.util.regex.*;
 public class Registration_login {
 
   
-     
+ 
     //Username format
     public static boolean isValidUsername(String username){
         Pattern pattern = Pattern.compile("^(?=.*_)[a-zA-Z0-9_]{1,5}$");
@@ -69,9 +69,9 @@ public class Registration_login {
 
      System.out.println("Login:");          
       System.out.print("Enter username: " );
-       username = scanner.nextLine();
-       System.out.println("Enter password: ");
-       password = scanner.nextLine();
+       username = scanner.next();
+       System.out.print("Enter password: ");
+       password = scanner.next();
        
        if (isValidUsername (username)&& isValidPassword(password)){
          System.out.println("Login Successful.");
