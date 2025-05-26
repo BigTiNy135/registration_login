@@ -5,15 +5,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import registration_login.Registration_login;
+import registration_login.Poe_QuickChat;
 
 /**
  *
  * @author tinyi
  */
-public class Registration_loginTest {
+public class Poe_QuickChatTest {
     
-    public Registration_loginTest() {
+    public Poe_QuickChatTest() {
     }
     
     @BeforeAll
@@ -40,7 +40,7 @@ public class Registration_loginTest {
         System.out.println("isValidUsername");
         String username = "";
         boolean expResult = false;
-        boolean result = Registration_login.isValidUsername(username);
+        boolean result = Poe_QuickChat.isValidUsername(username);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        
@@ -54,7 +54,7 @@ public class Registration_loginTest {
         System.out.println("isValidPassword");
         String password = "Tinyiko#9";
         boolean expResult = false;
-        boolean result = Registration_login.isValidPassword(password);
+        boolean result = Poe_QuickChat.isValidPassword(password);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
        
@@ -68,7 +68,7 @@ public class Registration_loginTest {
         System.out.println("isValidSouthAfricanPhoneNumber");
         String phoneNumber = "";
         boolean expResult = false;
-        boolean result = Registration_login.isValidSouthAfricanPhoneNumber(phoneNumber);
+        boolean result = Poe_QuickChat.isValidSouthAfricanPhoneNumber(phoneNumber);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
@@ -84,7 +84,7 @@ public class Registration_loginTest {
         String password = "";
         String phoneNumber = "";
         boolean expResult = false;
-        boolean result = Registration_login.isValidDetails(username, password, phoneNumber);
+        boolean result = Poe_QuickChat.isValidDetails(username, password, phoneNumber);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
     
@@ -97,7 +97,7 @@ public class Registration_loginTest {
     public void testMain() {
         System.out.println("main");
         String[] args = null;
-        Registration_login.main(args);
+        Poe_QuickChat.main(args);
         // TODO review the generated test code and remove the default call to fail.
     
     }
