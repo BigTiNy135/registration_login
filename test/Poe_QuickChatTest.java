@@ -1,4 +1,5 @@
 
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -33,7 +34,7 @@ public class Poe_QuickChatTest {
     }
 
     /**
-     * Test of isValidUsername method, of class Registration_login.
+     * Test of isValidUsername method, of class Poe_QuickChat.
      */
     @Test
     public void testIsValidUsername() {
@@ -43,25 +44,25 @@ public class Poe_QuickChatTest {
         boolean result = Poe_QuickChat.isValidUsername(username);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-       
+        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of isValidPassword method, of class Registration_login.
+     * Test of isValidPassword method, of class Poe_QuickChat.
      */
     @Test
     public void testIsValidPassword() {
         System.out.println("isValidPassword");
-        String password = "Tinyiko#9";
+        String password = "";
         boolean expResult = false;
         boolean result = Poe_QuickChat.isValidPassword(password);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-       
+        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of isValidSouthAfricanPhoneNumber method, of class Registration_login.
+     * Test of isValidSouthAfricanPhoneNumber method, of class Poe_QuickChat.
      */
     @Test
     public void testIsValidSouthAfricanPhoneNumber() {
@@ -75,7 +76,7 @@ public class Poe_QuickChatTest {
     }
 
     /**
-     * Test of isValidDetails method, of class Registration_login.
+     * Test of isValidDetails method, of class Poe_QuickChat.
      */
     @Test
     public void testIsValidDetails() {
@@ -87,11 +88,11 @@ public class Poe_QuickChatTest {
         boolean result = Poe_QuickChat.isValidDetails(username, password, phoneNumber);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-    
+        fail("The test case is a prototype.");
     }
 
     /**
-     * Test of main method, of class Registration_login.
+     * Test of main method, of class Poe_QuickChat.
      */
     @Test
     public void testMain() {
@@ -99,7 +100,7 @@ public class Poe_QuickChatTest {
         String[] args = null;
         Poe_QuickChat.main(args);
         // TODO review the generated test code and remove the default call to fail.
-    
+        fail("The test case is a prototype.");
     }
     
 }
