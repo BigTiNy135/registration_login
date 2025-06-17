@@ -161,7 +161,7 @@ static int messageCounter ;
                 
 //Message actions
                         Message msg = new Message(recipient, message, "Sent");
-                        String sendChoice = JOptionPane.showInputDialog("Choose an option:\n1) Send Message\n2) Disregard Message\n3) Store Message to Send Later");
+                        String sendChoice = JOptionPane.showInputDialog("Choose an option:\n1) Send Message\n2) Disregard Message\n3) Store Message ");
 
                         if (sendChoice.equals("1")) {
                             sentMessages.add(msg);
