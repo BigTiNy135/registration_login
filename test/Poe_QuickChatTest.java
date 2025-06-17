@@ -98,5 +98,15 @@ public class Poe_QuickChatTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of addTestData method, of class Poe_QuickChat.
+     */
+    @Test
+    public void testAddTestData() {
+        System.out.println("addTestData");
+        Poe_QuickChat.addTestData();
+        
+    }
     
 }
