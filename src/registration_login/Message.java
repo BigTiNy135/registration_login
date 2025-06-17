@@ -14,14 +14,14 @@ import java.io.*;
 
 public class Message {
     
-    
+    private String sender;
     private  String messageId;
     private  String recipient;
     private String message;
     private static int messageCount = 0;
     private String messageHash;
     
-    public Message(String recipient, String message){        
+    public Message(String recipient, String message, String sent){        
         this.recipient = recipient;
         this.message = message;
         this.messageId = generateMessageId();
@@ -85,9 +85,24 @@ public class Message {
                 "\nMessage: " + message;
         
    }
-  
+  public static int returnTotalMessages(){
+       return Poe_QuickChat.messageCounter;
     }
-               
-                
+  public String getmessageHash(){
+      return messageHash;
+  }
+  public String getmessageId(){
+      return messageId;
+  }
+  public String getRecipient(){
+      return recipient;
+  }
+  public String getMessage(){
+      return message;
+  }
+  public String getSender(){
+      return sender;
+  }
 
- 
+}       
+                

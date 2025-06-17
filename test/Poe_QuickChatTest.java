@@ -1,5 +1,4 @@
 
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -8,10 +7,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import registration_login.Poe_QuickChat;
 
-/**
- *
- * @author tinyi
- */
+
 public class Poe_QuickChatTest {
     
     public Poe_QuickChatTest() {
